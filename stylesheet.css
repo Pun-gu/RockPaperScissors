@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 600px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.selection{
+    display: flex;
+    justify-content: center;
+    gap: 20px ;
+   
+}
+
+.playerSelection:hover {
+    transform: scale(1.2);
+    transition: 100ms;
+}
+
+.resultsContainer {
+    display: flex;
+  
+    justify-content: space-evenly;
+    height: 40px;
+    align-items: center;
+}

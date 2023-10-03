@@ -2,10 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <script src="javascript.js"></script>
+
+    <link rel="stylesheet" href="stylesheet.css">
     <title>Rock Paper Scissor</title>
 </head>
 <body>
-    
+
+<div class="container">
+        
+        <h1> Rock, Paper, or Scissors</h1>
+    <div class="selection">
+        <button class="playerSelect" data-selection="rock">Rock</button>
+        <button class="playerSelect" data-selection="paper">Paper</button>
+        <button class="playerSelect" data-selection="scissors">Scissors</button>
+    </div>
+    <div class="resultsContainer">
+        <div class="participants">
+            <span class="score" id="playerText">Player:</span>
+        </div>
+        <div class="participants">
+            <span class="score" id="computerText">Computer:</span>
+        </div>
+        <div class="results">
+            Result:
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+</div>
 </body>
 </html>
