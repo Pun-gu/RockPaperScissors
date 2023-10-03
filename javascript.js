@@ -1,6 +1,6 @@
 
 function getComputerChoice(){
-    let randomNum = Math.floor(Math.random()*3)+1; //This makes comp generate number between 1-3//
+    let randomNum = Math.floor(Math.random()*3)+1; 
     switch (randomNum) {
         case 1:
             return('rock');
@@ -10,7 +10,7 @@ function getComputerChoice(){
             break; 
         case 3:
             return('scissors');
-    }} //Depending on the number generated, it spits out R, P, S// 
+    }} 
     
     function playRound(playerSelection, computerSelection){
         if(playerSelection == computerSelection){
