@@ -62,23 +62,3 @@ selectionButtons.forEach(selectedButton => {
         playRound(playerSelection, computerSelection)
     })
 })
-
-
-    // function game(){
-    //     playRound(playerSelection,computerSelection);
-    //     if(playerSelection ==  computerSelection){
-    //         console.log(`It is a Tie! Player Score is ${playerScore},Computer Score is ${computerScore}`);
-    //     }else if(playerSelection == 'rock'&& computerSelection=='scissors'){
-    //         playerScore++;
-    //         console.log(`Player Score is ${playerScore},Computer Score is ${computerScore}`);
-    //     }else if(playerSelection == 'scissors'&& computerSelection=='paper'){
-    //         playerScore++;
-    //         console.log(`Player Score is ${playerScore},Computer Score is ${computerScore}`);
-    //     }else if(playerSelection == 'paper'&& computerSelection=='rock'){
-    //         playerScore++;
-    //         console.log(`Player Score is ${playerScore},Computer Score is ${computerScore}`);
-    //     }else{
-    //         computerScore++;
-    //         console.log(`Player Score is ${playerScore},Computer Score is ${computerScore}`);
-    //     }
-    // }
